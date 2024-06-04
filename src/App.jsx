@@ -1,12 +1,14 @@
-import { GlobalStyles } from "./styles/GlobalStyles";
+import { GlobalStyles } from "./GlobalStyles/GlobalStyles";
+import Container from "./components/container/Container";
 
 const App = () => {
-	return (
-		<>
-			<GlobalStyles/>
-			<h1>Núcleo de la aplicación</h1>;
-		</>
-	);
+	return <>
+	<GlobalStyles></GlobalStyles>
+	<Container></Container>
+	
+	
+	</> 
+	
 };
 
 export default App;
